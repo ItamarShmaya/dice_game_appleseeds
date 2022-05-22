@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.scoreGoal,
+.currentValue {
+  font-size: 2rem;
+}
+
+.not-dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+@media all and (max-width: 500px) {
+  .menu {
+    flex-direction: row;
+  }
+}

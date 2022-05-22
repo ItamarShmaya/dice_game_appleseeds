@@ -1,0 +1,13 @@
+.rules-container {
+  padding: 3rem;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+@media all and (max-width: 900px) {
+  .rules-container {
+    width: 100%;
+    font-size: 15px;
+  }
+}
